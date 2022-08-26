@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota arredondada</title>
+</head>
+<body>
+    <script>
+        function nota(var1){
+            var nota = var1;
+
+        if (nota < 38){
+                return "Você foi Reprovado!!";
+
+    }else if (nota >= 38){
+        (Math.ceil(nota / 5) *5 );
+                return "Você Foi Aprovado!!";
+
+}else {
+    return "Aprovado";
+
+}
+
+}
+ 
+    </script>
+</body>
+</html>
